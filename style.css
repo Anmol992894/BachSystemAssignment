@@ -1,0 +1,281 @@
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+    padding-right: 0;
+}
+.page-1-elip{
+    position: absolute;
+    left: 80px;
+    width: 450px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+.page-1-elip1{
+    position: absolute;
+    left: 100px;
+    width: 400px;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+.page-1-elip2{
+    position: absolute;
+    left: 120px;
+    width: 350px;
+    height: 160px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+.page-2-elip{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    width: 450px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+.page-2-elip1{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    width: 450px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+.page-2-elip2{
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    width: 450px;
+    height: 280px;
+    border: 2px solid black;
+    border-radius: 90%;
+}
+
+.page-1-red1{
+    z-index: -10;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-1-yellow1{
+    z-index: -10;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-1-red2{
+    z-index: -10;
+    position: absolute;
+    left: 650px;
+    top: 550px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-1-yellow2{
+    z-index: -10;
+    position: absolute;
+    top: 550px;
+    left: 800px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+.para-text{
+    text-wrap:nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ribbon-1,.ribbon-2,.ribbon-3{
+    position: absolute;
+
+}
+
+.ribbon-1{
+    top: 650px;
+    width: 550px;
+    rotate: -40deg;
+    z-index: 2;
+}
+.ribbon-2{
+    top:650px;
+    left: 300px;
+    width: 350px;
+    height: 70px;
+    rotate: -66deg;
+    z-index: 1;
+}
+.ribbon-3{
+    top: 800px;
+    left: 380px;
+    width: 250px;
+    height: 70px;
+    z-index: 0;
+}
+
+.asterik{
+
+    font-size: 70px;
+    padding-bottom: 0px;
+}
+.image3{
+    rotate: -15deg;
+    /* z-index: 6; */
+    position:absolute;
+    margin-top: 140px;
+    margin-left: 360px;
+}
+.image2{
+    rotate: -15deg;
+    /* z-index: 5; */
+    position:absolute ;
+    margin-top: 70px;
+    margin-left: 230px;
+
+}
+.image1{
+    rotate: -15deg;
+    z-index: 4;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.page-2{
+    position: relative;
+    margin-top: 500px;
+
+}
+.grad-red{
+    z-index: -10;
+    position: absolute;
+    left: 100px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.grad-yellow{
+    z-index: -10;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+.grad-red-2{
+    z-index: -10;
+    position: absolute;
+    left: 590px;
+    top: 50px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.grad-yellow-2{
+    z-index: -10;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+
+.page-3{
+    position: relative;
+    margin-top: 50px;
+
+}
+
+.page-3-red1{
+    z-index: -10;
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-3-yellow1{
+    z-index: -10;
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-3-red2{
+    z-index: -10;
+    position: absolute;
+    left: 100px;
+    top: 550px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-3-yellow2{
+    z-index: -10;
+    position: absolute;
+    top: 550px;
+    left: 250px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-4-red1{
+    z-index: -10;
+    position: absolute;
+    left: 100px;
+    top: 2700px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(246, 22, 22, 0.5) 0%, rgb(255, 255, 255) );
+}
+.page-4-yellow1{
+    z-index: -10;
+    position: absolute;
+    top: 2700px;
+    left: 200px;
+    opacity: 0.5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: radial-gradient(ellipse farthest-corner at 45px 45px, rgba(255, 251, 44, 0.5) 0%, rgb(255, 255, 255) );
+}
